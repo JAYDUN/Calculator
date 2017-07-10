@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!--<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+<body>
+<div class="wrapper">
+    <div class="calculator">
+        <h2>Calculator</h2>
+        <input type="text" id="display" disabled>
+        <div class="keyboard">
+            <div class="row">
+                <button id="sin" onclick="calculator(this.id)">sin</button>
+                <button id="cos" onclick="calculator(this.id)">cos</button>
+                <button id="tan" onclick="calculator(this.id)">tan</button>
+                <button id="log"class="" onclick="calculator(this.id)">log</button>
+                <button id="sqrt"class="last-button " onclick="calculator(this.id)">&radic;</button>
+
+            </div>
+            <div class="row">
+                <button id="7" onclick="calculator(this.id)">7</button>
+                <button id="8" onclick="calculator(this.id)">8</button>
+                <button id="9" onclick="calculator(this.id)">9</button>
+                <button id="back" class="warning" onclick="calculator(this.id)">back</button>
+                <button id="clean" class="last-button warning" onclick="calculator(this.id)">C</button>
+
+            </div>
+            <div class="row">
+                <button id="4" onclick="calculator(this.id)">4</button>
+                <button id="5" onclick="calculator(this.id)">5</button>
+                <button id="6" onclick="calculator(this.id)">6</button>
+                <button id="*"class="" onclick="calculator(this.id)">*</button>
+                <button id="/"class="last-button " onclick="calculator(this.id)">/</button>
+
+            </div>
+            <div class="row">
+                <button id="1" onclick="calculator(this.id)">1</button>
+                <button id="2" onclick="calculator(this.id)">2</button>
+                <button id="3" onclick="calculator(this.id)">3</button>
+                <button id="+" class=""  onclick="calculator(this.id)">+</button>
+                <button id="-" class="last-button" onclick="calculator(this.id)">-</button>
+
+            </div>
+            <div class="row">
+                <button id="0" onclick="calculator(this.id)">0</button>
+                <button id="." onclick="calculator(this.id)">.</button>
+                <button id="reverse" onclick="calculator(this.id)">+/-</button>
+                <button id="%" class="" onclick="calculator(this.id)">%</button>
+                <button id="=" class="last-button"  onclick="calculator(this.id)">=</button>
+
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
